@@ -7,7 +7,6 @@ import { Router } from 'react-router-dom';
 // createBrowserHistory comes from react-router
 import createBrowserHistory from 'history/createBrowserHistory';
 import Login from './features/Login';
-import Album from './features/Album';
 import Home from './features/Home';
 const customHistory = createBrowserHistory();
 
@@ -15,9 +14,8 @@ const Root = () => {
 	return (
 		<Router history={customHistory}>
 			<Switch>
-				<Route path="/login" component={Login} />
-				<Route path="/app/home" component={Home} />
-				<Route path="/app/album" component={Album} />
+				<Route exact={true} path="/login" component={Login} />
+				<Route exact={true} path="/app/home" component={Home} />
 				<Redirect from="/" to="/login" />
 			</Switch>
 		</Router>	
