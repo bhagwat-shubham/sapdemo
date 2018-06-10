@@ -1,4 +1,16 @@
+This tutorial teaches you the following technologies:
+
+- Firebase (Firestore, Functions, Storage, Google Authentication, Hosting)
+- Google Cloud Vision machine learning API
+- React (create-react-app, react-router-dom)
+- Serverless functions (using Firebase Functions)
+- Async/await
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+To get the app running:
+
+### `npm start`
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
