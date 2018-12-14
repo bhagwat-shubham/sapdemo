@@ -31,6 +31,7 @@ export default class Home extends Component {
         this.getInitial = this.getInitial.bind(this);
         this.handleClose = this.handleClose.bind(this);
         this.handleRemove = this.handleRemove.bind(this);
+        this.handleUploadSuccess = this.handleUploadSuccess.bind(this)
     }
 
     handleClose() {
